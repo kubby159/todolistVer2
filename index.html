@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VicTory</title>
+    <!-- CSS초기화 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <script defer src="./JS/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header__main"></div>
+    </header>
+    <!-- loign & greeting-->
+    <section class="login">
+      <h1 id="greeting" class="hidden"></h1>
+
+      <div class="login__box">
+        <form id="login-form">
+          <h1>Hello!</h1>
+          <h2>What is your name?</h2>
+          <input
+            type="text"
+            placeholder="Please write your name"
+            id="login-input"
+            autocomplete="off"
+          />
+          <div class="login__btnBox">
+            <button class="login__btn">Sign in</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
