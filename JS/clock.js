@@ -1,20 +1,15 @@
 
-
-const clock = document.getElementById('clock');
-
-console.log(clock);
-
-function getClock () {
+const clock = document.querySelector('.time span');
 
 
+function nowTimes() {
     const date = new Date();
     const hours = String(date.getHours()).padStart(2,0);
     const minutes = String(date.getMinutes()).padStart(2,0);
-   
-
-    clock.innerHTML = `${hours} : ${minutes}`;
-
+    const seconds = String(date.getSeconds()).padStart(2,0);
+    clock.innerText = `${hours}:${minutes}:${seconds}`;
 }
 
-getClock();
-setInterval(getClock, 1000);
+
+nowTimes();
+setInterval(nowTimes,1000);

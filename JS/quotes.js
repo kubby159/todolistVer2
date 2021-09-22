@@ -1,16 +1,19 @@
 
 
-const quotes = document.querySelector('.quotes-display');
-const quotesAuthor = quotes.querySelector('.quotes-display__authors');
-const quotesMain = quotes.querySelector('.quotes-display__quotes');
+const quotes = document.querySelector('.quotes-box');
+const quotesAuthor = quotes.querySelector('.author');
+const quotesMain = quotes.querySelector('.quotes');
 
 console.log(quotesAuthor);
 console.log(quotesMain);
 
 
 const quotesCollection = [
-    {text: "a", author: "Jay"},
-    {text: "b", author: "dongguk"}
+    {text: `“Be yourself, everyone else is already taken.”`, author: "Oscar Wilde"},
+    {text: `“So many books, so little time.”`, author: "Frank Zappa"},
+    {text: `Marcus Tullius Cicero
+    “A room without books is like a body without a soul.”`, author: "Marcus Tullius Cicero"},
+    {text: `“You only live once, but if you do it right, once is enough.”`, author: "Mae West"}
 ]
 
 const randomSelector = quotesCollection[Math.floor(Math.random()*quotesCollection.length)];
