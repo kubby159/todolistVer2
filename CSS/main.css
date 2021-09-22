@@ -163,12 +163,17 @@ section .greeting-box {
     padding: 20px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid gray;
-    
-    
-
-    
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
 }
+
+#login-form > input::placeholder {
+
+    color: white;
+}
+
+
 
 
 .greeting-box {
