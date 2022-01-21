@@ -8,7 +8,6 @@
 input {
   border: none;
   background: none;
-  border-bottom: 1px solid #000;
 }
 
 body {
@@ -55,11 +54,14 @@ section .time {
   margin-bottom: 52px;
   font-family: "Dongle", sans-serif;
 }
-section .login__box input {
+section .login__box .login-form .input-your-name {
   text-align: center;
   width: 100%;
   height: 52px;
   font-size: 24px;
+  color: #fff;
+  border: none;
+  font-family: "Dongle", sans-serif;
 }
 section .greeting-box {
   font-size: 52px;
