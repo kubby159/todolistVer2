@@ -1,0 +1,90 @@
+* {
+  background-size: cover;
+  outline: none;
+  list-style: none;
+  color: #fff;
+}
+
+input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #000;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  z-index: 7;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+section .time {
+  font-size: 128px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 52px;
+  font-family: "Dongle", sans-serif;
+}
+section .login__box input {
+  text-align: center;
+  width: 100%;
+  height: 52px;
+  font-size: 24px;
+}
+section .greeting-box {
+  font-size: 52px;
+  padding: 36px;
+  font-family: "Dongle", sans-serif;
+}
+section .todolist-box {
+  height: 80%;
+}
+section .todolist-box input {
+  font-family: "Dongle", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+section .todolist-box input::placeholder {
+  color: #fff;
+}
+section .todolist-box .todo-list li {
+  border-radius: 12px;
+  font-size: 34px;
+  line-height: 2.5;
+  font-family: "Dongle", sans-serif;
+}
+section .todolist-box .todo-list li button {
+  margin-left: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+section .todolist-box .todo-list li span {
+  padding-left: 12px;
+}
+section .quotes-box {
+  font-size: 12px;
+  line-height: 2;
+  padding-bottom: 12px;
+}
+
+.completed {
+  color: red;
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=style.css.map */
