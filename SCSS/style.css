@@ -19,10 +19,27 @@ body {
   justify-content: space-around;
   align-items: center;
   z-index: 0;
+  background-size: cover;
 }
 
 .hidden {
   display: none;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header .weather {
+  font-size: 34px;
+  padding-right: 52px;
+  font-family: "Dongle", sans-serif;
+}
+.header .weather .loading {
+  width: 24px;
+  height: 24px;
 }
 
 section {
@@ -85,6 +102,11 @@ section .quotes-box {
 .completed {
   color: red;
   text-decoration: line-through;
+}
+
+.show-city {
+  display: inline-block;
+  margin-top: 8px;
 }
 
 /*# sourceMappingURL=style.css.map */
